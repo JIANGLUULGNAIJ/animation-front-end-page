@@ -1,0 +1,335 @@
+* {
+	text-decoration: none;
+}
+a:link{
+	color: black;
+}
+a:visited{
+	color: blueviolet;
+}
+a:hover{
+	color: red;
+}
+body{
+		margin: 0;
+		padding: 0;
+		background: #9db1dd;
+		font-weight: 500;
+		font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+}
+#first_div{
+	
+	
+}
+#searchinput{
+	
+}
+/* 首联 */
+		#icon{
+			color: #ff557f;
+			font-style: italic;
+			display: inline;
+			font-size: 40px;
+		}
+		#blink{
+					margin: 0px;
+					width:1100px;
+					height: 28px;
+					/* text-align: center; */
+				}
+/* 注册/登录 */
+		#firststorey{
+			font-size: 20px;
+			position: absolute;
+			right: 0px;
+			top: 90px;
+			
+		}
+		#firststorey img{
+			width: 20px;
+			height: 20px;
+			vertical-align: middle;
+		}
+		/* 导航栏 */
+		#lan{
+			width:700px;
+			height: 50px;
+			position: absolute;
+			top: 80px;
+			left: 0px;
+		}
+		 .many{/*设置导航栏的框框*/
+				 width: 700px;
+				 height: 50px;
+				padding: 0px;
+				margin: 0px;
+		}
+		.many li{
+			list-style-type: none;
+			/* float: left; */
+		}
+		#topa{
+			display: block;
+			width: 100px;
+			height: 50px;
+			font-family: Microsoft Yahei;
+			line-height: 50px;
+			background-color: pink;
+			margin: 0px 0px;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+			font-size: 15px;
+		}
+		#topa:hover{
+			background-color: #00ff7f;
+		}
+/*搜索框*/	
+        .bar7 {
+			height:80px;
+			/* width: 681px; */
+			background: lightskyblue;
+			background-image: url(../img/search.png);
+			}
+        .bar7 form {
+            height: 42px;
+			position: absolute;
+			right: 270px;
+			top: 80px;
+        }
+        .bar7 input, .bar7 button {
+            border-radius: 3px;
+        }
+        .bar7 input {
+            background: #F9F0DA;
+        }
+        .bar7 button {
+            height: 26px;
+            width: 26px;
+            top: 8px;
+            right: 8px;
+            background: #793cb5;
+        }
+        .bar7 button:before {
+            content: "\f105";
+            font-family: FontAwesome;
+            color: #F9F0DA;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+/* button设计 */
+        /* div.search {padding: 30px 0;} */
+
+       #form1 {
+            position: absolute;
+			top: 80px;
+			right: 340px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        #input1, #button1 {
+            border: none;
+            outline: none;
+        }
+
+        #input1 {
+            width: 100%;
+            height: 42px;
+            padding-left: 13px;
+        }
+
+        #button1 {
+            height: 42px;
+            width: 42px;
+            cursor: pointer;
+            position: absolute;
+			top: 1px;
+			right: -15px;
+        }
+/* 轮播图 */
+#max{
+  width: 900px;
+  height: 600px;
+  /* align-items: center; */
+  position: absolute;
+  left: 140px;
+  top: 80px;
+  margin: 5% auto;
+  margin-top: 0%;
+}
+.re{
+  position: relative;
+  height: 400px;
+}
+.re ul{
+  list-style-type:none ;
+}
+.re ul>li{
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  /* right: 340px; */
+  left: 0px;
+
+  transition: 1s;
+  opacity: 0;
+}
+.re ul>li img{
+  width: 900px;
+  height: 460px;
+  border-radius: 10%;
+  border: 15px solid lightcyan;
+}
+#max ol {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5,75px);
+  grid-template-rows: auto;
+  grid-gap: 1em;gap: 1em;
+  float: left;
+  margin-top: 450px;
+  list-style: none;
+  top:0;left:0;
+}
+#max ol li {
+  width: 25px;
+  height: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  float: left;
+  text-align: center;
+  border-radius: 2em;
+  border: 5px solid cornsilk;
+}
+/* 动漫层 */
+#lie{
+	width: 1880px;
+	height: 400px;
+	position: absolute;
+	left: 30px;
+	bottom: 20px;
+	/* background-color: #00FF7F; */
+}
+#lie2{
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	top: 130px;
+	right: 0px;
+	/* background-color: #00FF7F; */
+}
+#anime1{
+	margin:0px 30px ;
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+	
+}
+#anime2{
+	margin: 0px 30px;
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+	
+}
+#anime3{
+	margin: 0px 30px  ;
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+}
+#anime4{
+	margin: 0px 30px ;
+	width: 200px;
+	height: 300px;
+	/* background-color: #ff0000; */
+	display: inline-block;
+	
+}
+#anime5{
+	margin: 0px 30px ;
+	width: 200px;
+	height: 300px;
+	/* background-color: #ff0000; */
+	display: inline-block;
+	
+}
+#anime6{
+	margin: 0px 30px ;
+	width: 200px;
+	height: 300px;
+	/* background-color: #ff0000; */
+	display: inline-block;
+	
+}
+#anime7{
+	margin: 0px 30px ;
+	width: 200px;
+	height: 300px;
+	/* background-color: #ff0000; */
+	display: inline-block;
+	
+}
+#p p{
+	width: 260px;
+	text-align: center;
+	display: inline-block;
+}
+#p2 p{
+	width: 260px;
+	text-align: center;
+	display: inline-block;
+}
+#bottom{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	bottom: 0px;
+	left: 900px;
+}
+/* 番 */
+#buxie{
+	width: 1880px;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#buxie img{
+	vertical-align: middle;
+}
+#buxie p{
+	display: inline;
+	font-size: 50px;
+}
+/* 留言 */
+#liuyan{
+	width: 1880px;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#form3 {
+            /* position: relative; */
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        #input3 {
+            border: none;
+            outline: none;
+        }
+
+        #input3 {
+			position: relative;
+			left: 80px;
+            width: 400px;
+            height: 42px;
+            padding-left: 13px;
+			background-color: deepskyblue;
+			font-size: 23px;
+			
+        }

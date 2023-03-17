@@ -1,0 +1,75 @@
+body{
+	background-color: azure;
+}
+
+a:link{
+	color: black;
+}
+a:visited{
+	color: blueviolet;
+}
+a:hover{
+	color: red;
+}
+
+#bif{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+}
+
+#tu{
+	margin: 0px;
+	padding: 0px;
+	width: 400px;
+	height: 923px;
+	/* background-color: #00FF7F; */
+	display: inline-block;
+}
+#biao{
+	margin: 0px;
+	padding: 0px;
+	width: 1520px;
+	height: 923px;
+	/* background-color: #793CB5; */
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+ #form2 {
+            /* position: relative; */
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        #input2 {
+            border: none;
+            outline: none;
+        }
+
+        #input2 {
+            width: 100%;
+            height: 42px;
+            padding-left: 13px;
+        }
+
+/* 空白 */
+#blink2{
+		margin: 0px;
+		width:1100px;
+		height: 100px;
+}
+#uu{
+	font-size: 23px;
+	border: none;
+	outline: none;
+	width: 420px;
+	height: 42px;
+	padding-left: 13px;
+	background-color: deepskyblue;
+}
